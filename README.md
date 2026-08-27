@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&text=Debasis%20Code&fontAlign=50&fontAlignY=40&color=0:0ea5e9,50:8b5cf6,100:ec4899&fontColor=ffffff&animation=twinkling&desc=Building%20clean,%20performant%20and%20creative%20software&descAlign=50&descAlignY=62" width="100%" alt="Header" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=24&duration=2500&pause=1000&color=8B5CF6&center=true&vCenter=true&width=850&lines=Hi%2C+I'm+Debasis;Full-Stack+Developer+%7C+UI%2FUX+Enthusiast;Open+Source+Learner+and+Builder)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=24&duration=2500&pause=1000&color=8B5CF6&center=true&vCenter=true&width=850&lines=Hi%2C+I%27m+Debasis;Full-Stack+Developer+%7C+UI%2FUX+Enthusiast;Open+Source+Learner+and+Builder)](https://git.io/typing-svg)
 
 <p>
   <a href="https://github.com/DebasisCode?tab=followers"><img src="https://img.shields.io/github/followers/DebasisCode?label=Followers&style=for-the-badge&color=6366f1" alt="Followers" /></a>
@@ -33,8 +33,8 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=DebasisCode&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=transparent&cache_seconds=1800" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DebasisCode&layout=compact&langs_count=8&hide_border=true&theme=transparent&cache_seconds=1800" alt="Top languages" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DebasisCode&theme=tokyonight" alt="GitHub stats" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DebasisCode&theme=tokyonight" alt="Top languages" />
 <img src="https://streak-stats.demolab.com?user=DebasisCode&hide_border=true&theme=transparent&cache_seconds=1800" alt="GitHub streak" />
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=DebasisCode&bg_color=00000000&color=8b5cf6&line=0ea5e9&point=ec4899&area=true&hide_border=true" alt="Contribution graph" />
 
