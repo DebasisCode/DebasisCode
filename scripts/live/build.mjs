@@ -1,18 +1,23 @@
 #!/usr/bin/env node
-// Builds the live profile cards in assets/live/ from public APIs:
-//   activity.svg  3D isometric contribution calendar (GitHub GraphQL)
+// Builds the profile cards in assets/live/ from data sources:
+//   activity.svg  3D isometric contribution calendar (GitHub GraphQL, with a
+//                 public-API fallback when GITHUB_TOKEN is missing)
 //   cp.svg        competitive programming card (LeetCode + Codeforces)
+//   hero.svg      profile banner, static text
+//   footer.svg    mirrored profile banner
 //
 // No dependencies: Node 22+ only. Run by .github/workflows/live-cards.yml every
 // day. Each source is fetched independently; if one is down, the last good
 // value from assets/live/data.json is reused, so a card never breaks.
 //
 //   GITHUB_TOKEN=... node scripts/live/build.mjs      real data
+//   node scripts/live/build.mjs                       real data, tokenless sources
 //   node scripts/live/build.mjs --sample --out /tmp/x offline preview data
 
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { renderActivity } from './activity.mjs';
 import { renderCp } from './cp.mjs';
+import { renderHero, renderFooter } from './banner.mjs';
 
 const ACCOUNTS = {
   github: 'DebasisCode',
@@ -69,6 +74,50 @@ async function github() {
       w.contributionDays.map((d) => ({ date: d.date, count: d.contributionCount, level: levels[d.contributionLevel] ?? 0 })),
     ),
   };
+}
+
+// Unauthenticated contributions fallback (jogruber's public API, used by
+// Platane/snk). Makes the build work on machines without GITHUB_TOKEN, e.g.
+// running `node scripts/live/build.mjs --sample` style local previews.
+async function githubPublic() {
+  const res = await fetchJson(`https://github-contributions-api.jogruber.de/v4/${ACCOUNTS.github}?y=last`);
+  if (!Array.isArray(res.contributions)) throw new Error('unexpected contribution API response');
+  const days = res.contributions;
+  const weeks = [];
+  let week = [];
+  for (const day of days) {
+    if (new Date(`${day.date}T00:00:00Z`).getUTCDay() === 0 && week.length) {
+      weeks.push(week);
+      week = [];
+    }
+    week.push({ date: day.date, count: day.count, level: day.level });
+  }
+  if (week.length) {
+    // Pad the final week so every column renders as a full-height grid.
+    while (week.length < 7) {
+      const date = new Date(new Date(`${week[week.length - 1].date}T00:00:00Z`).getTime() + 86_400_000)
+        .toISOString()
+        .slice(0, 10);
+      week.push({ date, count: 0, level: 0 });
+    }
+    weeks.push(week);
+  }
+  return {
+    // The API returns totals keyed by year; sum the visible window ourselves.
+    total: days.reduce((a, d) => a + (Number(d.count) || 0), 0),
+    weeks,
+  };
+}
+
+// GraphQL needs a token; without one, fall back to the public contributions API.
+async function githubFlex() {
+  if (!process.env.GITHUB_TOKEN) return githubPublic();
+  try {
+    return await github();
+  } catch (err) {
+    console.warn(`github graphql: ${err.message}; falling back to the public contributions API`);
+    return githubPublic();
+  }
 }
 
 async function codeforces() {
@@ -160,7 +209,7 @@ async function main() {
   if (sample) {
     Object.assign(data, sampleData());
   } else {
-    const sources = { github, leetcode, codeforces };
+    const sources = { github: githubFlex, leetcode, codeforces };
     for (const [name, load] of Object.entries(sources)) {
       try {
         data[name] = await load();
@@ -180,7 +229,10 @@ async function main() {
     console.log(`wrote ${new URL('activity.svg', outDir).pathname}`);
   }
   await writeFile(new URL('cp.svg', outDir), await renderCp(data, ctx));
+  await writeFile(new URL('hero.svg', outDir), await renderHero());
+  await writeFile(new URL('footer.svg', outDir), await renderFooter());
   console.log(`wrote ${new URL('cp.svg', outDir).pathname}`);
+  console.log(`wrote hero.svg and footer.svg`);
 
   if (!sample) {
     await writeFile(cachePath, JSON.stringify(data, null, 2) + '\n');

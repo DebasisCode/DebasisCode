@@ -1,12 +1,36 @@
+<!--
+
+  Debasis Chattaraj's profile README. Notes for the next person who edits this:
+
+  - The four visuals (hero.svg, footer.svg, activity.svg, cp.svg) are generated
+    inside this repo, not by third-party stat services. They are built by
+    scripts/live/ with zero dependencies and rebuilt daily by
+    .github/workflows/live-cards.yml. Self-hosted cards never rate limit and
+    never randomly go dark. To preview locally: node scripts/live/build.mjs
+    (it falls back to a public contributions API when GITHUB_TOKEN is absent).
+  - GitHub strips JavaScript from READMEs, so nothing can react to actual
+    scrolling; every animation here is CSS or SMIL inside SVG <img>, which
+    GitHub does allow.
+  - The only external widgets kept are the ones known to render reliably
+    (github-profile-summary-cards, streak-stats, leetcard, badges).
+  - Page color theme: violet #8b5cf6 into sky #0ea5e9; the live cards carry
+    their own dark panel + orange accent family.
+
+-->
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Debasis%20Chattaraj&fontAlign=50&fontAlignY=35&desc=SDE%20Intern%20@%20SnowSEO%20|%20Full-Stack%20Developer%20|%20Competitive%20Programmer&descAlign=50&descAlignY=55&color=0:8b5cf6,100:0ea5e9&fontColor=ffffff" width="100%" alt="Debasis Chattaraj — SDE Intern @ SnowSEO, Full-Stack Developer, Competitive Programmer, LeetCode Knight" />
+<img src="assets/live/hero.svg" width="100%" alt="Debasis Chattaraj, ex intern at SnowSEO, AI engineer and software developer" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=850&lines=I+design+systems%2C+not+just+screens;If+I+do+it+twice%2C+I+automate+it;Constraints+first%2C+cleverness+last;Ship+it%2C+measure+it%2C+then+improve+it)](https://git.io/typing-svg)
+</div>
+
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=2800&pause=1000&color=8B5CF6&center=true&vCenter=true&width=840&lines=I+help+businesses+automate%2C+integrate+and+create+workflows;Winner%2C+Smart+Delhi+Ideathon;Codeforces+Pupil;Knight+on+LeetCode)](https://git.io/typing-svg)
 
 <p>
   <a href="https://github.com/DebasisCode?tab=followers"><img src="https://img.shields.io/github/followers/DebasisCode?label=Followers&style=for-the-badge&color=6366f1" alt="followers" /></a>
-  <a href="https://github.com/DebasisCode?tab=repositories"><img src="https://img.shields.io/badge/Projects-Explore-8b5cf6?style=for-the-badge" alt="projects" /></a>
+  <a href="https://github.com/DebasisCode?tab=repositories"><img src="https://img.shields.io/badge/Projects-Explore-8b5cf6?style=for-the-badge" alt="repositories" /></a>
   <img src="https://komarev.com/ghpvc/?username=DebasisCode&style=for-the-badge&color=0ea5e9&label=Profile+Views" alt="profile views" />
 </p>
 
@@ -14,93 +38,112 @@
 
 ---
 
-## About Me
+## About
 
-- **SDE Intern @ SnowSEO** — shipping AI-automation, platform integrations and analytics pipelines that run in production
-- **Information Technology** student at [Guru Gobind Singh Indraprastha University (GGSIPU)](http://www.ipu.ac.in/)
-- **Knight on LeetCode**, and an active competitive programmer on Codeforces &amp; CodeChef
-- **1x Hackathon Winner** — Smart Delhi Ideathon
-- Working depth in **distributed job processing, AI automation, MCP servers, REST API design, platform integrations and analytics pipelines**
-- I **automate anything repetitive** — if a task shows up twice by hand, the third time it's a script, a queue worker or an MCP tool
-- Open to **internship / full-time opportunities** — [**View My Resume**](https://drive.google.com/file/d/1cudQzuAQi7d6S3ldLEuKeWP6hN_Iwmar/view?usp=sharing)
+Most of what I build is the unglamorous middle layer of software: queues, integrations and AI plumbing that does real work while nobody babysits it.
 
-## What I Bring Beyond the Code
+Concretely: I help businesses **automate, integrate and create workflows, and adopt AI to increase the speed of their work**. That was literally the job at **SnowSEO**, where I recently wrapped my SDE internship: AI automation, platform integrations and analytics pipelines, shipped to production. Before that, competitive programming bent how my brain works, and it still shows up in how I design systems.
 
-> **I take ownership, not tickets.** Hand me a vague problem and I come back with the scope defined, the trade-offs picked and something shipped — not a list of questions.
-
-- **I design the system before I write the endpoint.** Queue topology, idempotency keys, retry and backoff, rate-limit budgets, failure modes — decided and written down first, then built.
-- **I debug production, not just localhost.** Reading logs and traces, reproducing race conditions, and fixing the cause instead of patching the symptom.
-- **I move fast inside code I didn't write.** Landing in a large unfamiliar repo and shipping a correct, in-style change is a skill I practise on purpose.
-- **Competitive programming rewired how I think.** Constraints first, correctness second, cleverness last — plus an instinct for the input that breaks your code.
-- **I close the loop with data.** Shipping isn't done. I instrument it, watch what it actually does in production, and let the numbers pick the next change.
-- **I write the reasoning down.** Design notes and "why not the other way", so the next person — or the next me — doesn't re-litigate a solved decision.
+- **Ex SDE intern @ SnowSEO.** AI automation, integrations and analytics, running in production
+- **Information Technology** student at [GGSIPU](http://www.ipu.ac.in/)
+- **Knight on LeetCode, Pupil on Codeforces**, still contesting on CodeChef
+- **Winner, Smart Delhi Ideathon**
+- Open to **internships and full-time roles** in AI engineering and software development. [My resume](https://drive.google.com/file/d/1cudQzuAQi7d6S3ldLEuKeWP6hN_Iwmar/view?usp=sharing) has the formal version.
 
 <div align="center">
 
-<img src="https://opengraph.githubassets.com/1/DebasisCode/shipone" width="100%" alt="Architecture I work with: REST API → queue → workers → AI/MCP layer → integrations → analytics, with retry/backoff and dead-letter replay" />
+<br />
+
+**[View my resume](https://drive.google.com/file/d/1cudQzuAQi7d6S3ldLEuKeWP6hN_Iwmar/view?usp=sharing)** · **[Email me](mailto:flancer250@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/debasis-chattaraj-4370ba220/)**
 
 </div>
 
-## Tech Stack
+## Live from my GitHub
+
+<!--
+  Generated inside this repo and committed by GitHub Actions, so the README
+  never depends on a rate-limited third-party service: assets/live/hero.svg,
+  assets/live/activity.svg, assets/live/cp.svg and assets/live/footer.svg all
+  come from scripts/live/ + live-cards.yml.
+  Preview locally with: node scripts/live/build.mjs
+-->
+
+<div align="center">
+
+<img src="assets/live/activity.svg" width="100%" alt="3D isometric render of my contribution calendar with streak stats, rebuilt daily by a GitHub Action in this repo" />
+
+</div>
+
+## What I work with
 
 <div align="center">
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=cpp,c,java,python,js,ts&perline=6" alt="languages" />
+<img src="https://skillicons.dev/icons?i=ts,js,python,cpp,java,c&perline=6" alt="languages" />
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind,bootstrap&perline=6" alt="frontend" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind&perline=5" alt="frontend" />
 
-**Backend, Queues &amp; Databases**
+**Backend & databases**
 
 <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,redis,mongodb,mysql,postgres&perline=7" alt="backend and databases" />
 
-**Tools &amp; Platforms**
+**Tools**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker,figma,linux,vercel&perline=8" alt="tools" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker,linux,vercel&perline=7" alt="tools" />
+
+**AI & automation plumbing**
+
+<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
+<img src="https://img.shields.io/badge/Anthropic-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Anthropic" />
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
+<img src="https://img.shields.io/badge/MCP_Servers-6f42c1?style=flat-square&logoColor=white" alt="MCP servers" />
+<img src="https://img.shields.io/badge/BullMQ-DA2F2F?style=flat-square&logo=redis&logoColor=white" alt="BullMQ" />
+<img src="https://img.shields.io/badge/Deepgram-13EF93?style=flat-square&logo=deepgram&logoColor=black" alt="Deepgram" />
 
 </div>
 
 ## Featured Projects
 
-### Outreach — AI-Powered Email Outreach Platform
+### Outreach: a keyboard-first AI job-search agent
 
 <a href="https://github.com/DebasisCode/outreach"><img src="https://opengraph.githubassets.com/1/DebasisCode/outreach" alt="Outreach project preview" width="100%" /></a>
 
-Outreach is an AI-powered cold-email platform that helps teams generate, personalize and send campaign emails at scale. It combines sequence automation, template management and account-level tracking in a production-ready TypeScript stack.
+Outreach is a job-search agent you talk to in chat, built in the spirit of Claude Code. Ask it for roles and it finds them, then finds the recruiter or hiring manager behind them, digs up their work email, and drafts a short personal message from your own Gmail. Nothing sends until you click Send. The same agent fills job applications for you: it drives a real Chrome window on your machine, reads the application form field by field, fills in what it knows from your profile and resume, and shows you a screenshot of the finished form before you decide whether to submit.
 
-<a href="https://github.com/DebasisCode/outreach"><img src="https://img.shields.io/badge/View_Repository-a78bfa?style=for-the-badge&logo=github&logoColor=white" alt="repo" /></a>
+**What makes it interesting:** it reads forms by labels and ARIA roles instead of CSS classes, so it keeps working when job sites redesign, and every send or submit is approval-gated. The machine does the typing, you stay in charge.
 
-### ShipOne — Multi-Carrier Shipping & Label Platform
+<p>
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Vercel_AI_SDK-000000?style=flat-square&logo=vercel&logoColor=white" />
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+<img src="https://img.shields.io/badge/Composio-2C0E4C?style=flat-square" />
+</p>
+
+<a href="https://github.com/DebasisCode/outreach"><img src="https://img.shields.io/badge/View_Repository-a78bfa?style=for-the-badge&logo=github&logoColor=white" alt="Outreach repository" /></a>
+
+### ShipOne: ship a full-stack app with one command
 
 <a href="https://github.com/DebasisCode/shipone"><img src="https://opengraph.githubassets.com/1/DebasisCode/shipone" alt="ShipOne project preview" width="100%" /></a>
 
-ShipOne is a logistics-focused shipping platform that unifies label generation, order flow and carrier integrations into one workflow. It focuses on reliable operations, clear tracking and scalable backend orchestration.
+ShipOne is a free, open source npm CLI built on one complaint: the last hour of every project was the same 30 to 60 minutes of deploy dashboard clicking. Run `shipone` and it figures out which folder is your website and which is your server, deploys the frontend to Vercel or Netlify and the backend to Render or Railway, all inside your own accounts so there is no vendor lock-in and no markup. Before anything goes live it wires the two halves to each other, API addresses exchanged both ways and browser security sorted out, and if a build fails it points at the exact lines that broke. Run it again and it finds the same project instead of creating a duplicate.
 
-<a href="https://github.com/DebasisCode/shipone"><img src="https://img.shields.io/badge/View_Repository-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="repo" /></a>
-
-### JobPilot — AI Job-Search Agent
-
-<a href="https://github.com/DebasisCode/jobPilot"><img src="https://opengraph.githubassets.com/1/DebasisCode/jobPilot" alt="JobPilot screenshot" width="100%" /></a>
-
-Set your preferences once and JobPilot keeps doing the repetitive discovery work for you. A **Fastify** API enqueues each search run into **Redis + BullMQ**; background **workers** discover roles across ATS sources (Greenhouse, Lever, Ashby), strip dead links and listicles, check role and experience fit, then AI-vet every opportunity before it reaches your dashboard. Bring-your-own model key, so you choose the provider.
-
-**Why it's interesting:** it's an agent-style background pipeline, not a static job board — queued runs, live progress tracking, and quality filtering that happens *before* you ever see a listing.
+**What makes it interesting:** the frontend/backend wiring is the part every deploy tool leaves as homework. ShipOne handles it, warns about hardcoded localhost URLs and forgotten secrets before launch, and keeps a tiny `shipone.yml` in your repo so your whole team gets the same one-command deploy.
 
 <p>
-<img src="https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Node.js_22+-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" />
-<img src="https://img.shields.io/badge/BullMQ-DA2F2F?style=flat-square&logo=redis&logoColor=white" />
-<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-<img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/npm_CLI-CB3837?style=flat-square&logo=npm&logoColor=white" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+<img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=black" />
+<img src="https://img.shields.io/badge/MIT_License-8b5cf6?style=flat-square" />
 </p>
 
-<a href="https://github.com/DebasisCode/jobPilot"><img src="https://img.shields.io/badge/View_Repository-a78bfa?style=for-the-badge&logo=github&logoColor=white" alt="repo" /></a>
+<a href="https://github.com/DebasisCode/shipone"><img src="https://img.shields.io/badge/View_Repository-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="ShipOne repository" /></a>
 
 <br />
 
@@ -110,9 +153,9 @@ Set your preferences once and JobPilot keeps doing the repetitive discovery work
 
 ### AI Lecture Notes Generator
 
-<a href="https://github.com/DebasisCode/Ai-notes-maker"><img src="https://opengraph.githubassets.com/1/DebasisCode/Ai-notes-maker" alt="AI Notes Maker screenshot" width="100%" /></a>
+<a href="https://github.com/DebasisCode/Ai-notes-maker"><img src="https://opengraph.githubassets.com/1/DebasisCode/Ai-notes-maker" alt="AI Notes Maker preview" width="100%" /></a>
 
-Real-time web app that records lectures, converts speech to text and uses an LLM to generate concise, context-aware notes — filtering out irrelevant chatter. A Node.js pipeline streams audio to a transcription API, then feeds the text to a model for intelligent summarisation.
+A real-time web app that records lectures, converts speech to text and lets an LLM write concise, context-aware notes, filtering out the irrelevant chatter. A Node.js pipeline streams audio to a transcription API and feeds the text to a model for summarisation.
 
 <p>
 <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
@@ -122,16 +165,16 @@ Real-time web app that records lectures, converts speech to text and uses an LLM
 <img src="https://img.shields.io/badge/Deepgram-13EF93?style=flat-square&logo=deepgram&logoColor=black" />
 </p>
 
-<a href="https://github.com/DebasisCode/Ai-notes-maker"><img src="https://img.shields.io/badge/View_Repository-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="repo" /></a>
+<a href="https://github.com/DebasisCode/Ai-notes-maker"><img src="https://img.shields.io/badge/View_Repository-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="AI Notes Maker repository" /></a>
 
 </td>
 <td width="50%" valign="top">
 
 ### Interactive C++ Code Visualizer
 
-<a href="https://github.com/DebasisCode/C-Degugger"><img src="https://opengraph.githubassets.com/1/DebasisCode/C-Degugger" alt="C++ Visualizer screenshot" width="100%" /></a>
+<a href="https://github.com/DebasisCode/C-Degugger"><img src="https://opengraph.githubassets.com/1/DebasisCode/C-Degugger" alt="C++ Visualizer preview" width="100%" /></a>
 
-Educational tool that teaches C++ by visualising execution — step-by-step dry runs, live variable state and a dynamic function call stack. A React + D3.js front end renders recursion and function lifecycles interactively, making hard concepts click.
+An educational tool that teaches C++ by visualising execution: step-by-step dry runs, live variable state and a dynamic function call stack. A React + D3.js front end renders recursion and function lifecycles interactively, so hard concepts finally click.
 
 <p>
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
@@ -141,7 +184,7 @@ Educational tool that teaches C++ by visualising execution — step-by-step dry 
 <img src="https://img.shields.io/badge/GDB-C80000?style=flat-square&logo=gnu&logoColor=white" />
 </p>
 
-<a href="https://github.com/DebasisCode/C-Degugger"><img src="https://img.shields.io/badge/View_Repository-0ea5e9?style=for-the-badge&logo=github&logoColor=white" alt="repo" /></a>
+<a href="https://github.com/DebasisCode/C-Degugger"><img src="https://img.shields.io/badge/View_Repository-0ea5e9?style=for-the-badge&logo=github&logoColor=white" alt="C++ Visualizer repository" /></a>
 
 </td>
 </tr>
@@ -149,14 +192,14 @@ Educational tool that teaches C++ by visualising execution — step-by-step dry 
 
 ### Personalized Jarvis Assistant
 
-Python voice assistant built with SpeechRecognition, pyttsx3, FastAPI and spaCy/NLTK that executes natural-language commands. Modular, extensible architecture with system control, web automation, task scheduling and plug-in commands.
+A Python voice assistant built with SpeechRecognition, pyttsx3, FastAPI and spaCy/NLTK that executes natural-language commands. Modular command architecture: system control, web automation, task scheduling and plug-in commands.
 
 <p>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
 <img src="https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white" />
 <img src="https://img.shields.io/badge/NLTK-154f5b?style=flat-square" />
-&nbsp;<a href="https://github.com/DebasisCode/Personal-Jarvis"><img src="https://img.shields.io/badge/View_Repository-ec4899?style=for-the-badge&logo=github&logoColor=white" alt="repo" /></a>
+&nbsp;<a href="https://github.com/DebasisCode/Personal-Jarvis"><img src="https://img.shields.io/badge/View_Repository-ec4899?style=for-the-badge&logo=github&logoColor=white" alt="Personal Jarvis repository" /></a>
 </p>
 
 <details>
@@ -176,15 +219,14 @@ Python voice assistant built with SpeechRecognition, pyttsx3, FastAPI and spaCy/
 
 </details>
 
-## GitHub Analytics
+## GitHub Stats
 
 <!--
-  Cards are served by github-profile-summary-cards and streak-stats, both of which
-  render reliably. Deliberately NOT used here: github-readme-stats.vercel.app,
-  github-readme-activity-graph.vercel.app and github-profile-trophy.vercel.app —
-  each of those shared public instances is rate-limited hard enough that the images
-  regularly fail to load. If you want those cards back, self-host them first:
-  https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own-vercel-instance
+  Kept: github-profile-summary-cards and streak-stats, both render reliably.
+  Deliberately not used: github-readme-stats.vercel.app, github-readme-activity-graph
+  and github-profile-trophy, their shared public instances get rate limited hard
+  enough that the images regularly fail to load. If you want them back, self-host
+  first: https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own-vercel-instance
 -->
 
 <div align="center">
@@ -218,13 +260,17 @@ Python voice assistant built with SpeechRecognition, pyttsx3, FastAPI and spaCy/
 
 <div align="center">
 
+<img src="assets/live/cp.svg" width="100%" alt="Live competitive programming card with my LeetCode and Codeforces ratings, rebuilt daily by a GitHub Action" />
+
+<br /><br />
+
 <a href="https://codeforces.com/profile/DebasisCodeforces"><img src="https://img.shields.io/badge/Codeforces-DebasisCodeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" /></a>
 <a href="https://leetcode.com/u/Debasis6969/"><img src="https://img.shields.io/badge/LeetCode-Debasis6969-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
 <a href="https://www.codechef.com/users/codemaster_6"><img src="https://img.shields.io/badge/CodeChef-codemaster__6-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" /></a>
 
 <br /><br />
 
-**Codeforces — live from the Codeforces API**
+**Codeforces, live from the Codeforces API**
 
 <a href="https://codeforces.com/profile/DebasisCodeforces"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcodeforces.com%2Fapi%2Fuser.info%3Fhandles%3DDebasisCodeforces&query=%24.result%5B0%5D.rating&label=Current%20Rating&style=for-the-badge&color=1F8ACB&logo=codeforces&logoColor=white&cacheSeconds=3600" alt="Codeforces current rating" /></a>
 <a href="https://codeforces.com/profile/DebasisCodeforces"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcodeforces.com%2Fapi%2Fuser.info%3Fhandles%3DDebasisCodeforces&query=%24.result%5B0%5D.maxRating&label=Max%20Rating&style=for-the-badge&color=8b5cf6&cacheSeconds=3600" alt="Codeforces max rating" /></a>
@@ -255,5 +301,7 @@ Python voice assistant built with SpeechRecognition, pyttsx3, FastAPI and spaCy/
 ---
 
 <div align="center">
-  <sub>Thanks for visiting my profile — let's build something amazing together.</sub>
+  <sub>Thanks for reading this far. If some part of it reads like a problem your team has right now, you know where to find me.</sub>
+  <br /><br />
+  <img src="assets/live/footer.svg" width="100%" alt="Footer wave. Thanks for scrolling, lets make it automatic" />
 </div>
