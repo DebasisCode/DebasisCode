@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="Debasis Chattaraj — SDE Intern @ SnowSEO, Full-Stack Developer, Competitive Programmer, LeetCode Knight" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Debasis%20Chattaraj&fontAlign=50&fontAlignY=35&desc=SDE%20Intern%20@%20SnowSEO%20|%20Full-Stack%20Developer%20|%20Competitive%20Programmer&descAlign=50&descAlignY=55&color=0:8b5cf6,100:0ea5e9&fontColor=ffffff" width="100%" alt="Debasis Chattaraj — SDE Intern @ SnowSEO, Full-Stack Developer, Competitive Programmer, LeetCode Knight" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=850&lines=I+design+systems%2C+not+just+screens;If+I+do+it+twice%2C+I+automate+it;Constraints+first%2C+cleverness+last;Ship+it%2C+measure+it%2C+then+improve+it)](https://git.io/typing-svg)
 
@@ -14,34 +14,34 @@
 
 ---
 
-## 🚀 About Me
+## About Me
 
-- 💼 **SDE Intern @ SnowSEO** — shipping AI-automation, platform integrations and analytics pipelines that run in production
-- 🎓 **Information Technology** student at [Guru Gobind Singh Indraprastha University (GGSIPU)](http://www.ipu.ac.in/)
-- ⚔️ **Knight on LeetCode**, and an active competitive programmer on Codeforces &amp; CodeChef
-- 🏆 **1x Hackathon Winner** — Smart Delhi Ideathon
-- 🧠 Working depth in **distributed job processing, AI automation, MCP servers, REST API design, platform integrations and analytics pipelines**
-- 🤖 I **automate anything repetitive** — if a task shows up twice by hand, the third time it's a script, a queue worker or an MCP tool
-- 🚀 Open to **internship / full-time opportunities** — [**View My Resume**](https://drive.google.com/file/d/1cudQzuAQi7d6S3ldLEuKeWP6hN_Iwmar/view?usp=sharing)
+- **SDE Intern @ SnowSEO** — shipping AI-automation, platform integrations and analytics pipelines that run in production
+- **Information Technology** student at [Guru Gobind Singh Indraprastha University (GGSIPU)](http://www.ipu.ac.in/)
+- **Knight on LeetCode**, and an active competitive programmer on Codeforces &amp; CodeChef
+- **1x Hackathon Winner** — Smart Delhi Ideathon
+- Working depth in **distributed job processing, AI automation, MCP servers, REST API design, platform integrations and analytics pipelines**
+- I **automate anything repetitive** — if a task shows up twice by hand, the third time it's a script, a queue worker or an MCP tool
+- Open to **internship / full-time opportunities** — [**View My Resume**](https://drive.google.com/file/d/1cudQzuAQi7d6S3ldLEuKeWP6hN_Iwmar/view?usp=sharing)
 
-## 🧭 What I Bring Beyond the Code
+## What I Bring Beyond the Code
 
 > **I take ownership, not tickets.** Hand me a vague problem and I come back with the scope defined, the trade-offs picked and something shipped — not a list of questions.
 
-- 🏗️ **I design the system before I write the endpoint.** Queue topology, idempotency keys, retry and backoff, rate-limit budgets, failure modes — decided and written down first, then built.
-- 🔍 **I debug production, not just localhost.** Reading logs and traces, reproducing race conditions, and fixing the cause instead of patching the symptom.
-- 🧩 **I move fast inside code I didn't write.** Landing in a large unfamiliar repo and shipping a correct, in-style change is a skill I practise on purpose.
-- ♟️ **Competitive programming rewired how I think.** Constraints first, correctness second, cleverness last — plus an instinct for the input that breaks your code.
-- 📈 **I close the loop with data.** Shipping isn't done. I instrument it, watch what it actually does in production, and let the numbers pick the next change.
-- 📝 **I write the reasoning down.** Design notes and "why not the other way", so the next person — or the next me — doesn't re-litigate a solved decision.
+- **I design the system before I write the endpoint.** Queue topology, idempotency keys, retry and backoff, rate-limit budgets, failure modes — decided and written down first, then built.
+- **I debug production, not just localhost.** Reading logs and traces, reproducing race conditions, and fixing the cause instead of patching the symptom.
+- **I move fast inside code I didn't write.** Landing in a large unfamiliar repo and shipping a correct, in-style change is a skill I practise on purpose.
+- **Competitive programming rewired how I think.** Constraints first, correctness second, cleverness last — plus an instinct for the input that breaks your code.
+- **I close the loop with data.** Shipping isn't done. I instrument it, watch what it actually does in production, and let the numbers pick the next change.
+- **I write the reasoning down.** Design notes and "why not the other way", so the next person — or the next me — doesn't re-litigate a solved decision.
 
 <div align="center">
 
-<img src="assets/pipeline.svg" width="100%" alt="Architecture I work with: REST API → queue → workers → AI/MCP layer → integrations → analytics, with retry/backoff and dead-letter replay" />
+<img src="https://opengraph.githubassets.com/1/DebasisCode/shipone" width="100%" alt="Architecture I work with: REST API → queue → workers → AI/MCP layer → integrations → analytics, with retry/backoff and dead-letter replay" />
 
 </div>
 
-## 🧰 Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -63,18 +63,27 @@
 
 </div>
 
-## 💡 Featured Projects
+## Featured Projects
 
-### 🛫 JobPilot — AI Job-Search Agent
+### Outreach — AI-Powered Email Outreach Platform
 
-<!--
-  📸 SCREENSHOT GOES HERE.
-  Replace the file  assets/jobpilot.png  with your own screenshot — keep the same
-  filename and nothing else needs to change. A ~2:1 image (e.g. 1600x800) fits best.
-  The current file is a placeholder I generated.
--->
+<a href="https://github.com/DebasisCode/outreach"><img src="https://opengraph.githubassets.com/1/DebasisCode/outreach" alt="Outreach project preview" width="100%" /></a>
 
-<a href="https://github.com/DebasisCode/jobPilot"><img src="assets/jobpilot.png" alt="JobPilot screenshot" width="100%" /></a>
+Outreach is an AI-powered cold-email platform that helps teams generate, personalize and send campaign emails at scale. It combines sequence automation, template management and account-level tracking in a production-ready TypeScript stack.
+
+<a href="https://github.com/DebasisCode/outreach"><img src="https://img.shields.io/badge/View_Repository-a78bfa?style=for-the-badge&logo=github&logoColor=white" alt="repo" /></a>
+
+### ShipOne — Multi-Carrier Shipping & Label Platform
+
+<a href="https://github.com/DebasisCode/shipone"><img src="https://opengraph.githubassets.com/1/DebasisCode/shipone" alt="ShipOne project preview" width="100%" /></a>
+
+ShipOne is a logistics-focused shipping platform that unifies label generation, order flow and carrier integrations into one workflow. It focuses on reliable operations, clear tracking and scalable backend orchestration.
+
+<a href="https://github.com/DebasisCode/shipone"><img src="https://img.shields.io/badge/View_Repository-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="repo" /></a>
+
+### JobPilot — AI Job-Search Agent
+
+<a href="https://github.com/DebasisCode/jobPilot"><img src="https://opengraph.githubassets.com/1/DebasisCode/jobPilot" alt="JobPilot screenshot" width="100%" /></a>
 
 Set your preferences once and JobPilot keeps doing the repetitive discovery work for you. A **Fastify** API enqueues each search run into **Redis + BullMQ**; background **workers** discover roles across ATS sources (Greenhouse, Lever, Ashby), strip dead links and listicles, check role and experience fit, then AI-vet every opportunity before it reaches your dashboard. Bring-your-own model key, so you choose the provider.
 
@@ -99,9 +108,9 @@ Set your preferences once and JobPilot keeps doing the repetitive discovery work
 <tr>
 <td width="50%" valign="top">
 
-### 🎧 AI Lecture Notes Generator
+### AI Lecture Notes Generator
 
-<a href="https://github.com/DebasisCode/Ai-notes-maker"><img src="assets/ai_notes_maker.png" alt="AI Notes Maker screenshot" width="100%" /></a>
+<a href="https://github.com/DebasisCode/Ai-notes-maker"><img src="https://opengraph.githubassets.com/1/DebasisCode/Ai-notes-maker" alt="AI Notes Maker screenshot" width="100%" /></a>
 
 Real-time web app that records lectures, converts speech to text and uses an LLM to generate concise, context-aware notes — filtering out irrelevant chatter. A Node.js pipeline streams audio to a transcription API, then feeds the text to a model for intelligent summarisation.
 
@@ -118,9 +127,9 @@ Real-time web app that records lectures, converts speech to text and uses an LLM
 </td>
 <td width="50%" valign="top">
 
-### 🧩 Interactive C++ Code Visualizer
+### Interactive C++ Code Visualizer
 
-<a href="https://github.com/DebasisCode/C-Degugger"><img src="assets/cpp_visualizer.png" alt="C++ Visualizer screenshot" width="100%" /></a>
+<a href="https://github.com/DebasisCode/C-Degugger"><img src="https://opengraph.githubassets.com/1/DebasisCode/C-Degugger" alt="C++ Visualizer screenshot" width="100%" /></a>
 
 Educational tool that teaches C++ by visualising execution — step-by-step dry runs, live variable state and a dynamic function call stack. A React + D3.js front end renders recursion and function lifecycles interactively, making hard concepts click.
 
@@ -138,7 +147,7 @@ Educational tool that teaches C++ by visualising execution — step-by-step dry 
 </tr>
 </table>
 
-### 🤖 Personalized Jarvis Assistant
+### Personalized Jarvis Assistant
 
 Python voice assistant built with SpeechRecognition, pyttsx3, FastAPI and spaCy/NLTK that executes natural-language commands. Modular, extensible architecture with system control, web automation, task scheduling and plug-in commands.
 
@@ -151,7 +160,7 @@ Python voice assistant built with SpeechRecognition, pyttsx3, FastAPI and spaCy/
 </p>
 
 <details>
-<summary><b>🗂️ More things I've built</b></summary>
+<summary><b>More things I've built</b></summary>
 
 <br />
 
@@ -167,7 +176,7 @@ Python voice assistant built with SpeechRecognition, pyttsx3, FastAPI and spaCy/
 
 </details>
 
-## 📊 GitHub Analytics
+## GitHub Analytics
 
 <!--
   Cards are served by github-profile-summary-cards and streak-stats, both of which
@@ -205,7 +214,7 @@ Python voice assistant built with SpeechRecognition, pyttsx3, FastAPI and spaCy/
 
 </div>
 
-## ⚔️ Competitive Programming
+## Competitive Programming
 
 <div align="center">
 
@@ -232,7 +241,7 @@ Python voice assistant built with SpeechRecognition, pyttsx3, FastAPI and spaCy/
 
 </div>
 
-## 🌐 Connect With Me
+## Connect With Me
 
 <div align="center">
 
@@ -246,5 +255,5 @@ Python voice assistant built with SpeechRecognition, pyttsx3, FastAPI and spaCy/
 ---
 
 <div align="center">
-  <sub>✨ Thanks for visiting my profile — let's build something amazing together.</sub>
+  <sub>Thanks for visiting my profile — let's build something amazing together.</sub>
 </div>
