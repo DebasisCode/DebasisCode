@@ -1951,11 +1951,16 @@
           "date": "2026-11-19",
           "count": 2,
           "level": 1
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0,
+          "level": 0
         }
       ]
     ]
   },
-  "githubUpdatedAt": "2026-11-19T08:54:07.319Z",
+  "githubUpdatedAt": "2026-11-20T08:40:27.742Z",
   "leetcode": {
     "solved": {
       "all": 174,
@@ -1971,10 +1976,10 @@
     },
     "rating": 1961,
     "contests": 6,
-    "top": 3.27,
+    "top": 3.28,
     "badge": "Knight"
   },
-  "leetcodeUpdatedAt": "2026-11-19T08:54:07.532Z",
+  "leetcodeUpdatedAt": "2026-11-20T08:40:27.867Z",
   "codeforces": {
     "rating": 1281,
     "maxRating": 1347,
@@ -2044,5 +2049,5 @@
       }
     ]
   },
-  "codeforcesUpdatedAt": "2026-11-19T08:54:08.093Z"
+  "codeforcesUpdatedAt": "2026-11-20T08:40:28.407Z"
 }
